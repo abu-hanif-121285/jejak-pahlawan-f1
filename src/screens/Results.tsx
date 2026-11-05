@@ -108,7 +108,7 @@ export function FinishScreen({ stats, onRestart, onMenu }: { stats: RaceStats; o
   return (
     <main className="relative min-h-[100svh] overflow-y-auto bg-circuit thin-scroll">
       <div className="pointer-events-none absolute inset-0">
-        <img src="/images/finish.jpg" alt="" aria-hidden="true" className="h-full w-full object-cover opacity-45 object-[60%_45%]" />
+        <img src="./images/finish.jpg" alt="" aria-hidden="true" className="h-full w-full object-cover opacity-45 object-[60%_45%]" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#03101f]/85 via-[#041424]/80 to-[#03101f]/97" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_20%,rgba(255,196,49,0.22),transparent_60%)]" />
       </div>
@@ -258,7 +258,7 @@ export function GameOverScreen({ stats, onRestart, onMenu }: { stats: RaceStats;
   return (
     <main className="relative min-h-[100svh] overflow-y-auto bg-circuit thin-scroll">
       <div className="pointer-events-none absolute inset-0">
-        <img src="/images/hero-f1.jpg" alt="" aria-hidden="true" className="h-full w-full object-cover opacity-30 grayscale-[35%] object-[70%_58%]" />
+        <img src="./images/hero-f1.jpg" alt="" aria-hidden="true" className="h-full w-full object-cover opacity-30 grayscale-[35%] object-[70%_58%]" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#03101f]/95 via-[#0a0d18]/92 to-[#03101f]/98" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_30%,rgba(225,29,46,0.28),transparent_62%)]" />
       </div>
@@ -317,7 +317,7 @@ export function GameOverScreen({ stats, onRestart, onMenu }: { stats: RaceStats;
                 </div>
               </div>
               <div className="relative mt-2 overflow-hidden rounded-lg border border-white/15">
-                <img src="/images/hero-f1.jpg" alt="Mobil F1 di sirkuit" className="h-[98px] w-full object-cover object-[60%_62%] opacity-80 sm:h-[118px]" />
+                <img src="./images/hero-f1.jpg" alt="Mobil F1 di sirkuit" className="h-[98px] w-full object-cover object-[60%_62%] opacity-80 sm:h-[118px]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#04101d] via-[#04101d]/25 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 flex items-center justify-between gap-1 p-1.5">
                   <span className="rounded border border-[#ff7385]/40 bg-[#3a1017]/85 px-1.5 py-0.5 text-[8px] font-bold uppercase tracking-wider text-[#ff9aa4]">Nyawa habis</span>

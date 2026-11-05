@@ -26,7 +26,7 @@ export default function StartScreen({ settings, onSettingsChange, onStart, onGui
       {/* Hero circuit background */}
       <div className="absolute inset-0">
         <img
-          src="/images/hero-f1.jpg"
+          src="./images/hero-f1.jpg"
           alt=""
           aria-hidden="true"
           className="hero-pan h-full w-full object-cover object-[74%_48%] lg:object-[center_45%]"

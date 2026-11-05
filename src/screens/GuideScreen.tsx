@@ -135,7 +135,7 @@ export default function GuideScreen({
         {/* Start CTA strip with car visual */}
         <div className="relative mt-3 overflow-hidden rounded-xl border border-[#ffd24a]/35 bg-gradient-to-r from-[#081f37] via-[#0a2740] to-[#071c30] shadow-[0_12px_30px_rgba(0,0,0,.4)] sm:mt-4">
           <div className="absolute inset-y-0 right-0 hidden w-[46%] sm:block">
-            <img src="/images/hero-f1.jpg" alt="Mobil F1 merah di lintasan" className="h-full w-full object-cover object-[68%_52%]" />
+            <img src="./images/hero-f1.jpg" alt="Mobil F1 merah di lintasan" className="h-full w-full object-cover object-[68%_52%]" />
             <div className="absolute inset-0 bg-gradient-to-r from-[#082037] via-[#082037]/55 to-transparent" />
           </div>
           <div className="relative z-10 flex flex-col items-start gap-2 p-3 sm:flex-row sm:items-center sm:justify-between sm:p-3.5">
